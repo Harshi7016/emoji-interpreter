@@ -1,0 +1,76 @@
+body {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/89/50/6057d92231543d1.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+
+  background-size: cover;
+  z-index: 100;
+  margin: 0 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  background-color: #831843;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #fff;
+}
+
+.container {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-data {
+  display: flex;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.emojiList {
+  padding: 2rem 2rem;
+  margin: 5rem 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+  vertical-align: middle;
+  line-height: 3;
+}
+
+.emojiList:hover {
+  transform: scale(
+    1.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  background-color: #831843;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #fff;
+}
+
+.sm-footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.sm-footer a,
+.sm-footer a:visited {
+  color: white;
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+}
