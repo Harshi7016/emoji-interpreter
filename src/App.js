@@ -64,14 +64,14 @@ export default function App() {
         <div class="sm-footer">
           <a
             href="https://www.instagram.com/harshith_bing/"
-            rel="noreferrer"
+           rel="noopener noreferrer"
             target="_blank"
           >
             <i class="fab fa-instagram"></i>
           </a>
           <a
             href="https://twitter.com/Harshith_V007"
-            rel="noreferrer"
+           rel="noopener noreferrer"
             target="_blank"
           >
             <i class="fab fa-twitter"></i>
@@ -82,7 +82,7 @@ export default function App() {
 
           <a
             href="https://medium.com/@harshithvenkatesh"
-            rel="noreferrer"
+           rel="noopener noreferrer"
             target="_blank"
           >
             <i class="fab fa-medium"></i>
@@ -90,7 +90,7 @@ export default function App() {
 
           <a
             href="https://www.linkedin.com/in/harshithv7016/"
-            rel="noreferrer"
+           rel="noopener noreferrer"
             target="_blank"
           >
             <i class="fab fa-linkedin"></i>
